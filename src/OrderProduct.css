@@ -1,0 +1,37 @@
+.orderProduct {
+   margin: 30px 0px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   transition: transform .2s ease;
+}
+.orderProduct:hover{
+   transform: scale(1.01);
+}
+.orderProduct__Container {
+   transition: transform 0.2s ease-in-out;
+   background-color:white;
+}
+.orderProduct__Container >p{
+   padding: 10px 20px;
+}
+.order__id{
+   text-align: right;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.orderProduct__total {
+   position: absolute;
+   bottom: 10px;
+   right: 20px;
+}
+.orderProduct {
+   position: relative;
+}
+@keyframes mymove {
+   from {
+      margin-left: -40px;
+   }
+   to {
+      margin-left: 0px;
+   }
+}

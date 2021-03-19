@@ -1,0 +1,16 @@
+.products {
+   display: flex;
+   background-color: white;
+   padding: 20px;
+}
+/* .products:h{
+    
+} */
+.products > img {
+   height: 125px;
+   margin-right: 10px;
+   /* transition: transform .2s ease-in-out; */
+}
+/* /* /* .products > img:hover {
+    /* transform:scale(1.1) */
+

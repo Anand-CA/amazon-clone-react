@@ -1,0 +1,19 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+}
+.empty__cart{
+  padding-left: 9px;
+  padding-top: 9px;
+  font-weight: bolder;
+}
